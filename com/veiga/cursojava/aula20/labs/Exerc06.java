@@ -1,6 +1,5 @@
 package com.veiga.cursojava.aula20.labs;
 
-import java.util.Iterator;
 import java.util.Scanner;
 
 public class Exerc06 {
