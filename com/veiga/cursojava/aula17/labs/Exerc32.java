@@ -13,10 +13,21 @@ public class Exerc32 {
 		int num = scan.nextInt();
 		System.out.println("Fatorial de: " + num);
 		
-		for (int i = num-1; i != 1 ; i--) {
+		System.out.print(num + "! = ");
+		for (int i = num; i > 0 ; i--) {
+		if ( i == num || i == 1) {
+			if (i == num) {
+				System.out.print(i + " . ");
+			} else {
+				System.out.print(i);
+			}
+		} else {
+			
+		System.out.print(i + " . ");
 		num = num * i;  	
 		}
-		System.out.println(num);
+		}
+		System.out.print(" = " + num);
 		
 	}
 

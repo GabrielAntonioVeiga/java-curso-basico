@@ -12,6 +12,8 @@ public class Exerc15 {
 		int count = 0;
 
 		for (int i = 1; i <= num; i++) {
+			if ( j < 500 ) {
+				
 			if (i == 1) {
 				System.out.print("0, ");
 				j = 1;
@@ -20,6 +22,7 @@ public class Exerc15 {
 				System.out.print(j + ", ");
 				j += count;
 				count = j - count;
+			}
 			}
 		}
 
